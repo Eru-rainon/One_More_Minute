@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f994d032593ffe44b35eb6058b58017, type: 3}
+  m_Name: FireLord
+  m_EditorClassIdentifier: 
+  upgradeType: 1
+  upgradeRarity: 2
+  upgradeName: FireLord
+  Description: You have become Lord of the Flame. Bullets have 50% chance to burn,
+    enemies take 20 Damage per second until they die
+  preRequisites:
+  - {fileID: 11400000, guid: 92492fa017c3f9a48b3837168aab73e9, type: 2}
+  - {fileID: 11400000, guid: a915f73bc7c6be044a3ac2943d8b88ba, type: 2}
+  - {fileID: 11400000, guid: d97bdfae33a72474b901133c8d27f035, type: 2}
+  - {fileID: 11400000, guid: 33ce95e6c5be8a34aafe0d21a9c37999, type: 2}
+  ChancetoBurn: 0.5
+  fireDuration: 10000
+  fireDamage: 20

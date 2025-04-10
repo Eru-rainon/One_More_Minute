@@ -1,0 +1,4 @@
+repository "Mini_Project@Erurainon@cloud"
+  path "/"
+    br "/main"
+    co "/main"

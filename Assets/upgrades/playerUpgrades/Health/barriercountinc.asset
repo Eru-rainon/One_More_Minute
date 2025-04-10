@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5de067f7211a3641a8269593adf3f59, type: 3}
+  m_Name: barriercountinc
+  m_EditorClassIdentifier: 
+  upgradeType: 0
+  upgradeRarity: 1
+  upgradeName: barrier_2
+  Description: increase the instances of damage the barrier negelects to 2
+  preRequisites:
+  - {fileID: 11400000, guid: 01e3682a2d271d8488aff2cec1f0061f, type: 2}
+  shieldCount: 2
+  DamageIgnoreThreshold: 0
+  ShieldRefreshTime: 30

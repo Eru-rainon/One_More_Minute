@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233bf6171969f2d4a964368590b49a0e, type: 3}
+  m_Name: SpeedtoDamage
+  m_EditorClassIdentifier: 
+  upgradeType: 2
+  upgradeRarity: 2
+  upgradeName: speedToDamage
+  Description: Decrease the Damage of enemies by whatever percentage of movement
+    speed of enemies you have reduced
+  preRequisites:
+  - {fileID: 11400000, guid: 259baef2a73c19c418993c13a5041cfe, type: 2}
+  - {fileID: 11400000, guid: c8f5ab34afa5aa045b9041ed9c833f6f, type: 2}
+  - {fileID: 11400000, guid: d50d08695c618ce4caa3e7d8c432d65a, type: 2}
+  - {fileID: 11400000, guid: 5c1ea20de5c46754e8fdde1112653d80, type: 2}

@@ -1,0 +1,43 @@
+# --- Unity-generated folders ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+
+# --- OS and Editor files ---
+.DS_Store
+*.swp
+*.tmp
+*.bak
+*.pid
+*.suo
+*.user
+*.userprefs
+*.unityproj
+*.booproj
+
+# --- VS/JetBrains IDE ---
+.vscode/
+*.csproj
+*.sln
+*.sln.*
+*.vcxproj*
+*.pidb
+*.svd
+*.pdb
+*.db
+*.opendb
+*.VC.db
+
+# --- Unity Asset Store packages (if you're not pushing them) ---
+Assets/imported assets/
+
+# --- Misc ---
+*.apk
+*.aab
+*.unitypackage
+*.log

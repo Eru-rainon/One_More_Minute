@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83529bf9a20451f49ba20eb43cfa63f4, type: 3}
+  m_Name: ExplosionOnDeath I
+  m_EditorClassIdentifier: 
+  upgradeType: 2
+  upgradeRarity: 0
+  upgradeName: Explosion On Death I
+  Description: when an enemy dies, there is a 20 percent chance to explode, dealing
+    20 damage to other enemies neaby
+  preRequisites: []
+  explosionOnDeath: 1
+  explosionChance: 0.2
+  explosionRadius: 10
+  explosionDamage: 20
