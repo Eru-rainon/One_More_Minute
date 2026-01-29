@@ -50,7 +50,8 @@ public class Gamelogic : MonoBehaviour
     [SerializeField] private TextMeshProUGUI survivalText;
     
 
-
+    public GameObject pauseMenuUI;
+    public bool isPaused = false;
     void Start()
     {
         enemySpawner.currentDamage = 10f;
@@ -216,5 +217,36 @@ public class Gamelogic : MonoBehaviour
 
         // Apply the changes to the enemy spawner
         updateEnemySpawner();
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (isPaused)
+            {
+                ResumeGame();
+            }
+            else
+            {
+                PauseGame();
+            }
+        }
+    }
+
+    public void PauseGame()
+    {
+        pauseMenuUI.SetActive(true);
+        Time.timeScale = 0f;
+        isPaused = true;
+        Cursor.lockState = CursorLockMode.None;
+    }
+
+    public void ResumeGame()
+    {
+        pauseMenuUI.SetActive(false);
+        Time.timeScale = 1f;
+        isPaused = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 }

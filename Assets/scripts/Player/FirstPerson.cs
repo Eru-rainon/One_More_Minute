@@ -111,7 +111,7 @@ public class FirstPerson : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(canMove){
+        if(canMove && Time.timeScale == 1f){
             handleMovementInput();
             handleMouseLook();
             if(canJump)
